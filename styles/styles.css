@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 350px;
+  width: 375px;
   margin: 150px auto;
   margin-bottom: 0%;
   text-align: center;
@@ -67,6 +67,7 @@ button {
 .btn-trans {
   margin-bottom: 20px;
   padding: 10px 98px;
+  color: grey;
 }
 .btn-blue:hover {
   background-color: hsl(258, 93%, 53%);
@@ -74,4 +75,5 @@ button {
 }
 .btn-trans:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
 }
