@@ -68,6 +68,9 @@ button {
   font-weight: 700;
   background-color: white;
 }
+button:hover {
+  cursor: pointer;
+}
 .btn-blue {
   background-color: hsl(245, 75%, 52%);
   color: white;
