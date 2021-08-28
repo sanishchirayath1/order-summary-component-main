@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  width: 100%;
+  height: 100%;
+
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -9,15 +12,20 @@ body {
 }
 
 .container {
-  width: 375px;
-  margin: 150px auto;
+  width: 400px;
+  margin: auto;
   margin-bottom: 0%;
   text-align: center;
   background-color: white;
   border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .content {
-  padding: 10px;
+  padding: 25px;
   margin: 0px;
 }
 .svg {
@@ -40,7 +48,7 @@ body {
   padding-left: 10px;
 }
 .change {
-  margin-left: 50px;
+  margin-left: 60px;
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -52,10 +60,10 @@ a {
 }
 
 button {
-  /* width:100%; */
+  width: 300px;
   border: none;
   border-radius: 10px;
-  margin: 0px 25px;
+  margin: 0px;
   margin-top: 20px;
   font-weight: 700;
   background-color: white;
@@ -63,18 +71,16 @@ button {
 .btn-blue {
   background-color: hsl(245, 75%, 52%);
   color: white;
-  padding: 10px 75px;
+  padding: 15px;
   box-shadow: hsl(245, 75%, 52%) 0px 5px 15px;
 }
 .btn-trans {
   margin-bottom: 20px;
-  padding: 10px 98px;
+  padding: 15px;
   color: grey;
 }
 .btn-blue:hover {
   background-color: hsl(258, 93%, 53%);
-  
-  
 }
 .btn-trans:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
