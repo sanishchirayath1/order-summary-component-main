@@ -67,6 +67,7 @@ button {
 .btn-trans {
   margin-bottom: 20px;
   padding: 10px 98px;
+  color: grey;
 }
 .btn-blue:hover {
   background-color: hsl(258, 93%, 53%);
