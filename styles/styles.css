@@ -36,30 +36,33 @@ body {
   text-align: center;
 }
 .annual {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 .change {
   margin-left: 50px;
   padding-top: 10px;
   padding-right: 10px;
 }
+.change:hover {
+  text-decoration: underline;
+}
 a {
   text-decoration: none;
 }
 
 button {
-    /* width:100%; */
-    border: none;
-    border-radius: 10px;
-    margin: 0px 25px;
-    margin-top: 20px;
-    font-weight: 700;
-    background-color: white;
+  /* width:100%; */
+  border: none;
+  border-radius: 10px;
+  margin: 0px 25px;
+  margin-top: 20px;
+  font-weight: 700;
+  background-color: white;
 }
-.btn-blue  {
-    background-color: hsl(245, 75%, 52%);
-    color: white;
-    padding: 10px 75px;
+.btn-blue {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 10px 75px;
 }
 .btn-trans {
   margin-bottom: 20px;
